@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("mars.gif");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: whitesmoke; 
+	border-style:inset;
+}
+
+h3
+{
+	color: yellowgreen ;
+    font-family: 'Permanent Marker', cursive;
+}
+</style>		
+
+	<title>Mars Rover</title>
+</head>
+<body>
+	<body onload = add()>
+<center>
+<h3>Have fun moving your own Mars Rover around Mars's surface. If you are not enjoying the surface, then reload the page to change it.</h3>
+<h3> NOTE: If the Rover is not visible then press any direction key. </h3>
+<canvas id="myCanvas" width="800" height="600">
+</canvas>
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
